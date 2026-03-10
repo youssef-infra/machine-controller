@@ -1,0 +1,4 @@
+bin/
+kubernetes/
+*.md
+.git

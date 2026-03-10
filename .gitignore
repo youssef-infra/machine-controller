@@ -1,0 +1,21 @@
+.env
+machine-controller
+vendor
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+*.tfstate.lock.info
+.terraform.tfstate.lock.info
+*.auto.tfvars
+.terraform.lock.hcl
+
+# Secrets and generated files
+*.pem
+*.key
+*-kubeconfig
+*-kubeconfig-external
+kubeconfig
+
+# Keep terraform.tfvars (they contain config, not secrets)

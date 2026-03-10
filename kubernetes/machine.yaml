@@ -1,0 +1,12 @@
+apiVersion: machine.sapcloud.io/v1alpha1
+kind: Machine
+metadata:
+  name: vpcloud-test-machine
+  namespace: default
+  labels:
+    shoot-name: vpcloud-test
+spec:
+  class:
+    apiGroup: machine.sapcloud.io
+    kind: MachineClass
+    name: vpcloud-standard-4-8
